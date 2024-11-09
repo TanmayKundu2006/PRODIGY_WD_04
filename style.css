@@ -1,0 +1,176 @@
+/* General Body Styling */
+body {
+    text-align: center;
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers */
+h1, h3 {
+    color: white;
+    text-shadow: 3px 3px 5px rgba(229, 10, 10, 0.3);
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Profile Image */
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    color: #630035;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Biodata Text */
+#biodata {
+    font-size: 1.2em;
+    color: #333;
+    text-shadow: 2px 2px 5px whitesmoke;
+    margin: 10px 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Container Div Styling */
+div {
+    background-color: #FFC72C;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+/* About Section Customization */
+#lol {
+    background-color: #FFFF00;
+    border: 3px solid black;
+}
+
+/* Skills Section */
+#skills {
+    color: purple;
+    text-shadow: 3px 3px 5px rgba(229, 10, 10, 0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+#skill {
+    padding: 6px 0;
+}
+
+/* Project Button Styling */
+button {
+    color: red;
+    font-size: 1.2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: salmon;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #ff8c69;
+    color: #fff;
+}
+
+/* Stopwatch Text */
+#stopwatch {
+    color: blueviolet;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+/* Footer Styling */
+footer {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Thank You Message */
+#thanks {
+    color: brown;
+    text-shadow: 3px 3px 5px rgba(229, 10, 10, 0.3);
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #biodata {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #about {
+        font-size: 1.2em;
+    }
+
+    #biodata {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 6px 12px;
+    }
+}
